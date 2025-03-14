@@ -1,24 +1,40 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 528, in script
-    ad "Правда, послушай маму, Рейчел. Это же выпускной вечер. Нельзя портить его себе только потому, что у тебя нет партнёра для танцев."
-Exception: Sayer 'ad' is not defined.
+  File "game/script.rpy", line 54, in script
+    reyTh "«Гринваген — лучшее место, если ты хочешь вырасти в Новой Англии и чувствовать себя человеком без комплексов», — так говорила моя мать, когда я только поступила в школу «Вэнити Гроув»"
+Exception: Style 'italic' does not exist.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 528, in script
-    ad "Правда, послушай маму, Рейчел. Это же выпускной вечер. Нельзя портить его себе только потому, что у тебя нет партнёра для танцев."
+  File "game/script.rpy", line 54, in script
+    reyTh "«Гринваген — лучшее место, если ты хочешь вырасти в Новой Англии и чувствовать себя человеком без комплексов», — так говорила моя мать, когда я только поступила в школу «Вэнити Гроув»"
   File "C:\Users\lalka\Downloads\renpy-8.3.3-sdk\renpy\ast.py", line 2573, in execute
     Say.execute(self)
-  File "C:\Users\lalka\Downloads\renpy-8.3.3-sdk\renpy\ast.py", line 575, in execute
-    who = eval_who(self.who, self.who_fast)
-  File "C:\Users\lalka\Downloads\renpy-8.3.3-sdk\renpy\ast.py", line 464, in eval_who
-    raise Exception("Sayer '%s' is not defined." % who)
-Exception: Sayer 'ad' is not defined.
+  File "C:\Users\lalka\Downloads\renpy-8.3.3-sdk\renpy\ast.py", line 615, in execute
+    renpy.exports.say(who, what, *args, **kwargs)
+  File "C:\Users\lalka\Downloads\renpy-8.3.3-sdk\renpy\exports\sayexports.py", line 132, in say
+    who(what, *args, **kwargs)
+  File "C:\Users\lalka\Downloads\renpy-8.3.3-sdk\renpy\character.py", line 1455, in __call__
+    self.do_display(who, what, cb_args=self.cb_args, dtt=dtt, **display_args)
+  File "C:\Users\lalka\Downloads\renpy-8.3.3-sdk\renpy\character.py", line 1106, in do_display
+    display_say(who,
+  File "C:\Users\lalka\Downloads\renpy-8.3.3-sdk\renpy\character.py", line 735, in display_say
+    what_text = show_function(who, what_string, **show_args)
+  File "C:\Users\lalka\Downloads\renpy-8.3.3-sdk\renpy\character.py", line 1084, in do_show
+    return self.show_function(
+  File "C:\Users\lalka\Downloads\renpy-8.3.3-sdk\renpy\character.py", line 346, in show_display_say
+    props = compute_widget_properties(who_args, what_args, window_args, properties, variant=variant, multiple=multiple)
+  File "C:\Users\lalka\Downloads\renpy-8.3.3-sdk\renpy\character.py", line 280, in compute_widget_properties
+    what_args = style_args(what_args, "what")
+  File "C:\Users\lalka\Downloads\renpy-8.3.3-sdk\renpy\character.py", line 267, in style_args
+    style = getattr(renpy.store.style, style)
+  File "style.pyx", line 216, in renpy.style.StyleManager.__getattr__
+  File "style.pyx", line 83, in renpy.style.get_style
+Exception: Style 'italic' does not exist.
 
 Windows-10-10.0.19045 AMD64
 Ren'Py 8.3.3.24111502
-In the Shade of the Walnut Tree 1.0
-Thu Mar 13 22:02:47 2025
+In the Shade of the Walnut Tree 0.1
+Fri Mar 14 15:55:59 2025

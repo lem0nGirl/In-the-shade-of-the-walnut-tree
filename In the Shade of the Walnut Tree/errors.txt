@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 372: expected ':' not found.
-    label Chapter_3
-                   ^
+File "game/script.rpy", line 12: style property italics is not known.
+    italics True  
+           ^
 
 Ren'Py Version: Ren'Py 8.3.3.24111502
-Thu Mar 13 12:08:43 2025
+Fri Mar 14 15:55:20 2025
