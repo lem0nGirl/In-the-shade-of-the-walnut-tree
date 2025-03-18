@@ -364,8 +364,7 @@ screen main_menu():
     ## содержание главного меню находится на экране навигации.
     use navigation
 
-    if gui.show_name:
-
+    if gui.show_name: 
         vbox:
             style "main_menu_vbox"
 
@@ -400,6 +399,15 @@ style main_menu_text:
 
 style main_menu_title:
     properties gui.text_properties("title")
+
+    font "gui/fonts/Old-Times-Bold-Italic-Regular/Old-Times-Bold-Italic-Regular.ttf" 
+    size 75  # Размер текста
+    color "#66c1e0"  # Цвет текста (выбери нужный)
+    outlines [ (9, "#0d2d55", 0, 0) ]  # Обводка (толщина, цвет, смещение X, Y)
+    bold False  # Жирный текст
+    italic False  # Курсив (если нужен)
+    xalign 0.5  # Выравнивание по центру
+    yalign 0.1  # Положение по вертикали (подбери удобное)
 
 style main_menu_version:
     properties gui.text_properties("version")

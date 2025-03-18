@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 12: style property italics is not known.
-    italics True  
-           ^
+File "game/screens.rpy", line 402: style property add is not known.
+    add "gui/title.png" xalign 0.5 yalign 0.1
+       ^
 
 Ren'Py Version: Ren'Py 8.3.3.24111502
-Fri Mar 14 15:55:20 2025
+Tue Mar 18 13:38:29 2025
