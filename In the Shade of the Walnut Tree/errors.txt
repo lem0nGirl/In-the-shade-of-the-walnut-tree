@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/screens.rpy", line 402: style property add is not known.
-    add "gui/title.png" xalign 0.5 yalign 0.1
-       ^
+File "game/script.rpy", line 26: expected statement.
+    def save_with_label(slot_name, label):
+                       ^
 
 Ren'Py Version: Ren'Py 8.3.3.24111502
-Tue Mar 18 13:38:29 2025
+Wed Mar 19 12:51:11 2025

@@ -1,150 +1,37 @@
-2025-03-18 08:39:38 UTC
+2025-03-19 10:23:37 UTC
 Windows-10-10.0.19045
 Ren'Py 8.3.3.24111502
 
-Early init took 0.43s
-Loading error handling took 0.18s
-Loading script took 1.18s
-Loading save slot metadata took 0.87s
+Early init took 0.26s
+Loading error handling took 0.22s
+Loading script took 1.43s
+Loading save slot metadata took 0.81s
 Loading persistent took 0.00s
-
-File "game/script.rpy", line 1064: expected statement.
-    at posRight
-               ^
-
-File "game/script.rpy", line 1067: expected statement.
-    at posLeft
-              ^
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Interface start took 1.68s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1366, 768)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'GeForce GT 720M/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 388.57'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1253, 705) drawable=(1253, 705)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 30.82s
-Loading error handling took 0.05s
-Loading script took 0.72s
-Loading save slot metadata took 0.08s
-Loading persistent took 0.00s
-Running init code took 0.29s
-Loading analysis data took 0.05s
+Running init code took 0.31s
+Loading analysis data took 0.07s
 Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.77s
+Reloading save slot metadata took 0.67s
 Index archives took 0.00s
 Backing up script files to 'C:\\Users\\lalka\\AppData\\Roaming/RenPy/backups\\In the Shade of the Walnut Tree':
-Dump and make backups took 0.21s
+Dump and make backups took 0.18s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
 Initial gc took 0.08s
 DPI scale factor: 1.000000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: Disabled thread optimizations.
-Creating interface object took 1.38s
+Creating interface object took 1.55s
 Cleaning stores took 0.00s
 Init translation took 0.08s
 Build styles took 0.01s
-Load screen analysis took 0.04s
+Load screen analysis took 0.07s
 Analyze screens took 0.03s
-Save screen analysis took 0.04s
-Prepare screens took 0.18s
-Save pyanalysis. took 0.03s
-Save bytecode. took 0.04s
-Running _start took 0.00s
-Interface start took 0.09s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1366, 768)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'GeForce GT 720M/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 388.57'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1253, 705) drawable=(1253, 705)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 69.77s
-Loading error handling took 0.07s
-Loading script took 0.62s
-Loading save slot metadata took 0.09s
-Loading persistent took 0.00s
-Running init code took 0.08s
-Loading analysis data took 0.05s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.07s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\lalka\\AppData\\Roaming/RenPy/backups\\In the Shade of the Walnut Tree':
-Dump and make backups took 0.17s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.10s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 1.36s
-Cleaning stores took 0.00s
-Init translation took 0.08s
-Build styles took 0.01s
-Load screen analysis took 0.01s
-Analyze screens took 0.03s
-Save screen analysis took 0.04s
+Save screen analysis took 0.06s
 Prepare screens took 0.19s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.03s
+Save pyanalysis. took 0.04s
+Save bytecode. took 0.06s
 Running _start took 0.00s
-Interface start took 0.09s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1366, 768)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'GeForce GT 720M/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 388.57'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1253, 705) drawable=(1253, 705)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 131.12s
-Loading error handling took 0.12s
-Loading script took 0.91s
-Loading save slot metadata took 0.09s
-Loading persistent took 0.00s
-Running init code took 0.08s
-Loading analysis data took 0.04s
-Analyze and compile ATL took 0.01s
-Reloading save slot metadata took 0.07s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\lalka\\AppData\\Roaming/RenPy/backups\\In the Shade of the Walnut Tree':
-Dump and make backups took 0.21s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.11s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 2.15s
-Cleaning stores took 0.00s
-Init translation took 0.10s
-Build styles took 0.01s
-Load screen analysis took 0.02s
-Analyze screens took 0.04s
-Save screen analysis took 0.05s
-Prepare screens took 0.22s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.04s
-Running _start took 0.00s
-Interface start took 0.11s
+Interface start took 0.39s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 1366, 768)
@@ -164,31 +51,640 @@ Analyze screens took 0.00s
 Prepare screens took 0.00s
 Running _start took 0.00s
 Resetting cache.
-Early init took 6844.05s
-Loading error handling took 0.10s
-Loading script took 0.57s
-Loading save slot metadata took 0.19s
+Early init took 749.19s
+Loading error handling took 0.13s
+Loading script took 0.58s
+Loading save slot metadata took 0.24s
 Loading persistent took 0.00s
-Running init code took 0.20s
-Loading analysis data took 0.05s
-Analyze and compile ATL took 0.01s
-Reloading save slot metadata took 0.16s
-Index archives took 0.00s
-Dump and make backups took 0.18s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.12s
+
+File "game/gui.rpy", line 231: expected a keyword argument, colon, or end of line.
+    add gui.slot_button_width, gui.slot_button_height:
+                             ^
 DPI scale factor: 1.000000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: Disabled thread optimizations.
-Creating interface object took 1.74s
+Interface start took 2.20s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'GeForce GT 720M/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 388.57'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1253, 705) drawable=(1253, 705)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 797.19s
+Loading error handling took 0.11s
+Loading script took 0.84s
+Loading save slot metadata took 0.10s
+Loading persistent took 0.00s
+
+File "game/gui.rpy", line 231: expected a keyword argument, colon, or end of line.
+    add gui.slot_button_width,
+                             ^
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 1.99s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'GeForce GT 720M/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 388.57'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1253, 705) drawable=(1253, 705)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 826.96s
+Loading error handling took 0.08s
+Loading script took 1.02s
+Loading save slot metadata took 0.06s
+Loading persistent took 0.00s
+
+File "game/gui.rpy", line 231: expected a keyword argument, colon, or end of line.
+    add gui.slot_button_width, gui.slot_button_height:
+                             ^
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 1.85s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'GeForce GT 720M/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 388.57'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1253, 705) drawable=(1253, 705)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 860.83s
+Loading error handling took 0.15s
+Loading script took 0.97s
+Loading save slot metadata took 0.10s
+Loading persistent took 0.00s
+Running init code took 0.09s
+Loading analysis data took 0.06s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.09s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\lalka\\AppData\\Roaming/RenPy/backups\\In the Shade of the Walnut Tree':
+Dump and make backups took 0.18s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.10s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 1.53s
+Cleaning stores took 0.00s
+Init translation took 0.08s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.03s
+Save screen analysis took 0.05s
+Prepare screens took 0.19s
+Save pyanalysis. took 0.03s
+Save bytecode. took 0.04s
+Running _start took 0.00s
+Interface start took 0.10s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'GeForce GT 720M/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 388.57'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1253, 705) drawable=(1253, 705)
+Maximum texture size: 4096x4096
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.01s
+Load screen analysis took 0.09s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
+Resetting cache.
+Early init took 932.64s
+Loading error handling took 0.07s
+Loading script took 0.93s
+Loading save slot metadata took 0.21s
+Loading persistent took 0.00s
+Running init code took 0.12s
+Loading analysis data took 0.07s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.19s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\lalka\\AppData\\Roaming/RenPy/backups\\In the Shade of the Walnut Tree':
+Dump and make backups took 0.33s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.33s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 2.04s
 Cleaning stores took 0.00s
 Init translation took 0.09s
 Build styles took 0.01s
-Load screen analysis took 0.07s
+Load screen analysis took 0.00s
+Analyze screens took 0.03s
+Save screen analysis took 0.05s
+Prepare screens took 0.19s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.04s
+Running _start took 0.00s
+Interface start took 0.09s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'GeForce GT 720M/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 388.57'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1253, 705) drawable=(1253, 705)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 940.71s
+Loading error handling took 0.06s
+Loading script took 0.37s
+Loading save slot metadata took 0.13s
+Loading persistent took 0.00s
+Running init code took 0.08s
+Loading analysis data took 0.04s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.08s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\lalka\\AppData\\Roaming/RenPy/backups\\In the Shade of the Walnut Tree':
+Dump and make backups took 0.21s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.11s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 1.50s
+Cleaning stores took 0.00s
+Init translation took 0.11s
+Build styles took 0.01s
+Load screen analysis took 0.02s
+Analyze screens took 0.03s
+Save screen analysis took 0.04s
+Prepare screens took 0.20s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.04s
+Running _start took 0.00s
+Interface start took 0.09s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'GeForce GT 720M/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 388.57'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1253, 705) drawable=(1253, 705)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 1145.61s
+Loading error handling took 0.08s
+Loading script took 0.66s
+Loading save slot metadata took 0.10s
+Loading persistent took 0.00s
+
+File "game/script.rpy", line 26: expected statement.
+    def save_with_label(slot, label):
+                       ^
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 2.53s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'GeForce GT 720M/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 388.57'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1253, 705) drawable=(1253, 705)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 1303.93s
+Loading error handling took 0.07s
+Loading script took 1.40s
+Loading save slot metadata took 0.16s
+Loading persistent took 0.00s
+
+File "game/script.rpy", line 26: expected statement.
+    def save_with_label(slot, label):
+                       ^
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 2.05s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'GeForce GT 720M/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 388.57'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1253, 705) drawable=(1253, 705)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 1350.81s
+Loading error handling took 0.27s
+Loading script took 1.05s
+Loading save slot metadata took 0.20s
+Loading persistent took 0.00s
+
+File "game/script.rpy", line 26: expected statement.
+    def save_with_label(slot, label):
+                       ^
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 1.83s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'GeForce GT 720M/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 388.57'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1253, 705) drawable=(1253, 705)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 1443.06s
+Loading error handling took 0.06s
+Loading script took 1.02s
+Loading save slot metadata took 0.19s
+Loading persistent took 0.00s
+
+File "game/script.rpy", line 26: expected statement.
+    def save_with_label(slot, label):
+                       ^
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 1.85s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'GeForce GT 720M/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 388.57'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1253, 705) drawable=(1253, 705)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 1449.58s
+Loading error handling took 0.05s
+Loading script took 0.64s
+Loading save slot metadata took 0.10s
+Loading persistent took 0.00s
+
+File "game/script.rpy", line 26: expected statement.
+    def save_with_label(slot, label):
+                       ^
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 1.60s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'GeForce GT 720M/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 388.57'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1253, 705) drawable=(1253, 705)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 1522.69s
+Loading error handling took 0.09s
+Loading script took 0.93s
+Loading save slot metadata took 0.09s
+Loading persistent took 0.00s
+
+File "game/script.rpy", line 26: expected statement.
+    def save_with_label(slot_name, label):
+                       ^
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 1.62s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'GeForce GT 720M/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 388.57'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1253, 705) drawable=(1253, 705)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 1568.42s
+Loading error handling took 0.10s
+Loading script took 0.96s
+Loading save slot metadata took 0.21s
+Loading persistent took 0.00s
+
+File "game/script.rpy", line 26: expected statement.
+    def save_with_label(slot_name, label):
+                       ^
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 2.46s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'GeForce GT 720M/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 388.57'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1253, 705) drawable=(1253, 705)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 1575.88s
+Loading error handling took 0.05s
+Loading script took 0.64s
+Loading save slot metadata took 0.09s
+Loading persistent took 0.00s
+
+File "game/script.rpy", line 26: expected statement.
+    def save_with_label(slot_name, label):
+                       ^
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 1.82s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'GeForce GT 720M/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 388.57'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1253, 705) drawable=(1253, 705)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 1583.71s
+Loading error handling took 0.06s
+Loading script took 0.67s
+Loading save slot metadata took 0.09s
+Loading persistent took 0.00s
+
+File "game/script.rpy", line 26: expected statement.
+    def save_with_label(slot_name, label):
+                       ^
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 1.97s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'GeForce GT 720M/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 388.57'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1253, 705) drawable=(1253, 705)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 1632.53s
+Loading error handling took 0.06s
+Loading script took 0.92s
+Loading save slot metadata took 0.10s
+Loading persistent took 0.00s
+
+File "game/script.rpy", line 26: expected statement.
+    def save_with_label(slot_name, label):
+                       ^
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 2.04s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'GeForce GT 720M/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 388.57'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1253, 705) drawable=(1253, 705)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 1653.03s
+Loading error handling took 0.09s
+Loading script took 1.33s
+Loading save slot metadata took 0.13s
+Loading persistent took 0.00s
+
+File "game/script.rpy", line 26: expected statement.
+    def save_with_label(slot_name, label):
+                       ^
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 2.15s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'GeForce GT 720M/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 388.57'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1253, 705) drawable=(1253, 705)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 1673.21s
+Loading error handling took 0.07s
+Loading script took 1.25s
+Loading save slot metadata took 0.16s
+Loading persistent took 0.00s
+Running init code took 0.14s
+Loading analysis data took 0.04s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.09s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\lalka\\AppData\\Roaming/RenPy/backups\\In the Shade of the Walnut Tree':
+Dump and make backups took 0.38s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.15s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 2.36s
+Cleaning stores took 0.00s
+Init translation took 0.13s
+Build styles took 0.01s
+Load screen analysis took 0.02s
+Analyze screens took 0.05s
+Save screen analysis took 0.05s
+Prepare screens took 0.32s
+Save pyanalysis. took 0.04s
+Save bytecode. took 0.07s
+Running _start took 0.00s
+Interface start took 0.30s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'GeForce GT 720M/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 388.57'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1253, 705) drawable=(1253, 705)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 1685.53s
+Loading error handling took 0.15s
+Loading script took 1.32s
+Loading save slot metadata took 0.15s
+Loading persistent took 0.00s
+Running init code took 0.09s
+Loading analysis data took 0.06s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.10s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\lalka\\AppData\\Roaming/RenPy/backups\\In the Shade of the Walnut Tree':
+Dump and make backups took 0.27s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.45s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 2.63s
+Cleaning stores took 0.00s
+Init translation took 0.10s
+Build styles took 0.01s
+Load screen analysis took 0.01s
+Analyze screens took 0.03s
+Save screen analysis took 0.04s
+Prepare screens took 0.23s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.04s
+Running _start took 0.00s
+Interface start took 0.09s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'GeForce GT 720M/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 388.57'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1253, 705) drawable=(1253, 705)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 1700.68s
+Loading error handling took 0.07s
+Loading script took 0.83s
+Loading save slot metadata took 0.10s
+Loading persistent took 0.00s
+Running init code took 0.08s
+Loading analysis data took 0.04s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.08s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\lalka\\AppData\\Roaming/RenPy/backups\\In the Shade of the Walnut Tree':
+Dump and make backups took 0.18s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.11s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 2.38s
+Cleaning stores took 0.00s
+Init translation took 0.22s
+Build styles took 0.03s
+Load screen analysis took 0.05s
+Analyze screens took 0.06s
+Save screen analysis took 0.09s
+Prepare screens took 0.41s
+Save pyanalysis. took 0.06s
+Save bytecode. took 0.07s
+Running _start took 0.00s
+Interface start took 0.77s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'GeForce GT 720M/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 388.57'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1253, 705) drawable=(1253, 705)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 2126.54s
+Loading error handling took 0.07s
+Loading script took 0.33s
+Loading save slot metadata took 0.11s
+Loading persistent took 0.00s
+Running init code took 0.08s
+Loading analysis data took 0.05s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.15s
+Index archives took 0.00s
+Dump and make backups took 0.28s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.10s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 2.57s
+Cleaning stores took 0.00s
+Init translation took 0.09s
+Build styles took 0.01s
+Load screen analysis took 0.08s
 Analyze screens took 0.00s
 Save screen analysis took 0.00s
-Prepare screens took 0.18s
+Prepare screens took 0.24s
 Save pyanalysis. took 0.00s
 Save bytecode. took 0.00s
 Running _start took 0.00s
@@ -204,1286 +700,10 @@ Version: b'4.6.0 NVIDIA 388.57'
 Display Info: None
 Screen sizes: virtual=(1920, 1080) physical=(1253, 705) drawable=(1253, 705)
 Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 8490.07s
-Loading error handling took 0.08s
-Loading script took 0.70s
-Loading save slot metadata took 0.11s
-Loading persistent took 0.01s
-Running init code took 0.14s
-Loading analysis data took 0.06s
-Analyze and compile ATL took 0.01s
-Reloading save slot metadata took 0.09s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\lalka\\AppData\\Roaming/RenPy/backups\\In the Shade of the Walnut Tree':
-Dump and make backups took 0.23s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.14s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 1.86s
 Cleaning stores took 0.00s
-Init translation took 0.12s
-Build styles took 0.01s
-Load screen analysis took 0.00s
-Analyze screens took 0.11s
-Save screen analysis took 0.06s
-Prepare screens took 0.27s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.05s
-Running _start took 0.00s
-Interface start took 1.05s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1366, 768)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'GeForce GT 720M/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 388.57'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1253, 705) drawable=(1253, 705)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 8538.52s
-Loading error handling took 0.07s
-Loading script took 0.59s
-Loading save slot metadata took 0.09s
-Loading persistent took 0.00s
-Running init code took 0.09s
-Loading analysis data took 0.04s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.09s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\lalka\\AppData\\Roaming/RenPy/backups\\In the Shade of the Walnut Tree':
-Dump and make backups took 0.18s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.12s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 1.52s
-Cleaning stores took 0.00s
-Init translation took 0.11s
-Build styles took 0.01s
-Load screen analysis took 0.02s
-Analyze screens took 0.03s
-Save screen analysis took 0.05s
-Prepare screens took 0.21s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.04s
-Running _start took 0.00s
-Interface start took 0.11s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1366, 768)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'GeForce GT 720M/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 388.57'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1253, 705) drawable=(1253, 705)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 8579.32s
-Loading error handling took 0.07s
-Loading script took 0.38s
-Loading save slot metadata took 0.11s
-Loading persistent took 0.00s
-Running init code took 0.10s
-Loading analysis data took 0.04s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.07s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\lalka\\AppData\\Roaming/RenPy/backups\\In the Shade of the Walnut Tree':
-Dump and make backups took 0.18s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.10s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 2.15s
-Cleaning stores took 0.00s
-Init translation took 0.17s
-Build styles took 0.02s
-Load screen analysis took 0.06s
-Analyze screens took 0.05s
-Save screen analysis took 0.11s
-Prepare screens took 0.33s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.04s
-Running _start took 0.00s
-Interface start took 0.10s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1366, 768)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'GeForce GT 720M/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 388.57'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1253, 705) drawable=(1253, 705)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 8587.54s
-Loading error handling took 0.09s
-Loading script took 0.67s
-Loading save slot metadata took 0.14s
-Loading persistent took 0.00s
-Running init code took 0.10s
-Loading analysis data took 0.07s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.08s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\lalka\\AppData\\Roaming/RenPy/backups\\In the Shade of the Walnut Tree':
-Dump and make backups took 0.25s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.13s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 1.59s
-Cleaning stores took 0.00s
-Init translation took 0.09s
-Build styles took 0.01s
-Load screen analysis took 0.01s
-Analyze screens took 0.03s
-Save screen analysis took 0.05s
-Prepare screens took 0.44s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.04s
-Running _start took 0.00s
-Interface start took 0.10s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1366, 768)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'GeForce GT 720M/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 388.57'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1253, 705) drawable=(1253, 705)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 10683.29s
-Loading error handling took 0.20s
-Loading script took 1.20s
-Loading save slot metadata took 0.12s
-Loading persistent took 0.00s
-Running init code took 0.17s
-Loading analysis data took 0.04s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.08s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\lalka\\AppData\\Roaming/RenPy/backups\\In the Shade of the Walnut Tree':
-Dump and make backups took 0.27s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.16s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 1.49s
-Cleaning stores took 0.00s
-Init translation took 0.09s
-Build styles took 0.01s
-Load screen analysis took 0.03s
-Analyze screens took 0.05s
-Save screen analysis took 0.05s
-Prepare screens took 0.20s
-Save pyanalysis. took 0.05s
-Save bytecode. took 0.04s
-Running _start took 0.00s
-Interface start took 0.10s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1366, 768)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'GeForce GT 720M/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 388.57'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1253, 705) drawable=(1253, 705)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 10730.13s
-Loading error handling took 0.07s
-Loading script took 1.03s
-Loading save slot metadata took 0.13s
-Loading persistent took 0.00s
-
-File "game/screens.rpy", line 402: style property add is not known.
-    add "gui/title.png" xalign 0.5 yalign 0.1
-       ^
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Interface start took 1.98s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1366, 768)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'GeForce GT 720M/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 388.57'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1253, 705) drawable=(1253, 705)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 10771.65s
-Loading error handling took 0.05s
-Loading script took 1.08s
-Loading save slot metadata took 0.13s
-Loading persistent took 0.00s
-Running init code took 0.35s
-Loading analysis data took 0.11s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.08s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\lalka\\AppData\\Roaming/RenPy/backups\\In the Shade of the Walnut Tree':
-Dump and make backups took 0.18s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.09s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 1.66s
-Cleaning stores took 0.00s
-Init translation took 0.08s
-Build styles took 0.01s
-Load screen analysis took 0.02s
-Analyze screens took 0.03s
-Save screen analysis took 0.04s
-Prepare screens took 0.18s
-Save pyanalysis. took 0.04s
-Save bytecode. took 0.04s
-Running _start took 0.00s
-Interface start took 0.14s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1366, 768)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'GeForce GT 720M/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 388.57'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1253, 705) drawable=(1253, 705)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 10794.28s
-Loading error handling took 0.09s
-Loading script took 1.46s
-Loading save slot metadata took 0.63s
-Loading persistent took 0.00s
-Running init code took 0.13s
-Loading analysis data took 0.05s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.09s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\lalka\\AppData\\Roaming/RenPy/backups\\In the Shade of the Walnut Tree':
-Dump and make backups took 0.29s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.19s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 1.66s
-Cleaning stores took 0.00s
-Init translation took 0.09s
-Build styles took 0.01s
-Load screen analysis took 0.02s
-Analyze screens took 0.03s
-Save screen analysis took 0.05s
-Prepare screens took 0.19s
-Save pyanalysis. took 0.04s
-Save bytecode. took 0.04s
-Running _start took 0.00s
-Interface start took 0.11s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1366, 768)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'GeForce GT 720M/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 388.57'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1253, 705) drawable=(1253, 705)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 10799.82s
-Loading error handling took 0.07s
-Loading script took 0.32s
-Loading save slot metadata took 0.09s
-Loading persistent took 0.00s
-Running init code took 0.11s
-Loading analysis data took 0.05s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.07s
-Index archives took 0.00s
-Dump and make backups took 0.16s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.14s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 1.78s
-Cleaning stores took 0.00s
-Init translation took 0.10s
-Build styles took 0.01s
-Load screen analysis took 0.08s
-Analyze screens took 0.00s
-Save screen analysis took 0.00s
-Prepare screens took 0.19s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.00s
-Running _start took 0.00s
-Interface start took 0.11s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1366, 768)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'GeForce GT 720M/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 388.57'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1253, 705) drawable=(1253, 705)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 10830.96s
-Loading error handling took 0.12s
-Loading script took 1.28s
-Loading save slot metadata took 0.12s
-Loading persistent took 0.00s
-Running init code took 0.12s
-Loading analysis data took 0.05s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.07s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\lalka\\AppData\\Roaming/RenPy/backups\\In the Shade of the Walnut Tree':
-Dump and make backups took 0.20s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.17s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 1.50s
-Cleaning stores took 0.00s
-Init translation took 0.08s
-Build styles took 0.01s
-Load screen analysis took 0.00s
-Analyze screens took 0.04s
-Save screen analysis took 0.04s
-Prepare screens took 0.22s
-Save pyanalysis. took 0.04s
-Save bytecode. took 0.04s
-Running _start took 0.00s
-Interface start took 0.12s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1366, 768)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'GeForce GT 720M/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 388.57'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1253, 705) drawable=(1253, 705)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 11673.95s
-Loading error handling took 0.20s
-Loading script took 1.06s
-Loading save slot metadata took 0.09s
-Loading persistent took 0.00s
-Running init code took 0.08s
-Loading analysis data took 0.05s
-Analyze and compile ATL took 0.01s
-Reloading save slot metadata took 0.08s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\lalka\\AppData\\Roaming/RenPy/backups\\In the Shade of the Walnut Tree':
-Dump and make backups took 0.19s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.11s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 1.64s
-Cleaning stores took 0.00s
-Init translation took 0.11s
+Init translation took 0.00s
 Build styles took 0.01s
 Load screen analysis took 0.06s
-Analyze screens took 0.04s
-Save screen analysis took 0.05s
-Prepare screens took 0.50s
-Save pyanalysis. took 0.06s
-Save bytecode. took 0.06s
-Running _start took 0.00s
-Interface start took 0.11s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1366, 768)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'GeForce GT 720M/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 388.57'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1253, 705) drawable=(1253, 705)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 12004.72s
-Loading error handling took 0.10s
-Loading script took 1.05s
-Loading save slot metadata took 0.16s
-Loading persistent took 0.00s
-Running init code took 0.11s
-Loading analysis data took 0.06s
-Analyze and compile ATL took 0.01s
-Reloading save slot metadata took 0.11s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\lalka\\AppData\\Roaming/RenPy/backups\\In the Shade of the Walnut Tree':
-Dump and make backups took 0.21s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.11s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 1.50s
-Cleaning stores took 0.00s
-Init translation took 0.08s
-Build styles took 0.01s
-Load screen analysis took 0.01s
-Analyze screens took 0.04s
-Save screen analysis took 0.06s
-Prepare screens took 0.23s
-Save pyanalysis. took 0.04s
-Save bytecode. took 0.04s
-Running _start took 0.00s
-Interface start took 0.09s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1366, 768)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'GeForce GT 720M/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 388.57'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1253, 705) drawable=(1253, 705)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 12032.13s
-Loading error handling took 0.07s
-Loading script took 0.78s
-Loading save slot metadata took 0.09s
-Loading persistent took 0.00s
-Running init code took 0.08s
-Loading analysis data took 0.07s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.08s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\lalka\\AppData\\Roaming/RenPy/backups\\In the Shade of the Walnut Tree':
-Dump and make backups took 0.19s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.11s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 1.89s
-Cleaning stores took 0.00s
-Init translation took 0.10s
-Build styles took 0.01s
-Load screen analysis took 0.02s
-Analyze screens took 0.05s
-Save screen analysis took 0.05s
-Prepare screens took 0.19s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.03s
-Running _start took 0.00s
-Interface start took 0.12s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1366, 768)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'GeForce GT 720M/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 388.57'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1253, 705) drawable=(1253, 705)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 12182.02s
-Loading error handling took 0.07s
-Loading script took 1.49s
-Loading save slot metadata took 0.14s
-Loading persistent took 0.00s
-Running init code took 0.11s
-Loading analysis data took 0.04s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.07s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\lalka\\AppData\\Roaming/RenPy/backups\\In the Shade of the Walnut Tree':
-Dump and make backups took 0.17s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.11s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 1.48s
-Cleaning stores took 0.00s
-Init translation took 0.11s
-Build styles took 0.01s
-Load screen analysis took 0.01s
-Analyze screens took 0.03s
-Save screen analysis took 0.05s
-Prepare screens took 0.20s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.03s
-Running _start took 0.00s
-Interface start took 0.10s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1366, 768)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'GeForce GT 720M/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 388.57'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1253, 705) drawable=(1253, 705)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 12677.19s
-Loading error handling took 0.30s
-Loading script took 1.14s
-Loading save slot metadata took 0.12s
-Loading persistent took 0.00s
-Running init code took 0.09s
-Loading analysis data took 0.04s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.08s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\lalka\\AppData\\Roaming/RenPy/backups\\In the Shade of the Walnut Tree':
-Dump and make backups took 0.20s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.11s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 1.95s
-Cleaning stores took 0.00s
-Init translation took 0.16s
-Build styles took 0.01s
-Load screen analysis took 0.02s
-Analyze screens took 0.04s
-Save screen analysis took 0.05s
-Prepare screens took 0.19s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.04s
-Running _start took 0.00s
-Interface start took 0.11s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1366, 768)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'GeForce GT 720M/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 388.57'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1253, 705) drawable=(1253, 705)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 12918.30s
-Loading error handling took 0.09s
-Loading script took 0.74s
-Loading save slot metadata took 0.09s
-Loading persistent took 0.00s
-Running init code took 0.09s
-Loading analysis data took 0.04s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.07s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\lalka\\AppData\\Roaming/RenPy/backups\\In the Shade of the Walnut Tree':
-Dump and make backups took 0.17s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.11s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 1.75s
-Cleaning stores took 0.00s
-Init translation took 0.11s
-Build styles took 0.01s
-Load screen analysis took 0.02s
-Analyze screens took 0.03s
-Save screen analysis took 0.04s
-Prepare screens took 0.21s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.03s
-Running _start took 0.00s
-Interface start took 0.12s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1366, 768)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'GeForce GT 720M/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 388.57'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1253, 705) drawable=(1253, 705)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 13058.85s
-Loading error handling took 0.08s
-Loading script took 0.87s
-Loading save slot metadata took 0.11s
-Loading persistent took 0.00s
-Running init code took 0.08s
-Loading analysis data took 0.04s
-Analyze and compile ATL took 0.01s
-Reloading save slot metadata took 0.09s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\lalka\\AppData\\Roaming/RenPy/backups\\In the Shade of the Walnut Tree':
-Dump and make backups took 0.23s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.13s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 1.90s
-Cleaning stores took 0.00s
-Init translation took 0.09s
-Build styles took 0.01s
-Load screen analysis took 0.01s
-Analyze screens took 0.03s
-Save screen analysis took 0.05s
-Prepare screens took 0.18s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.03s
-Running _start took 0.00s
-Interface start took 0.10s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1366, 768)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'GeForce GT 720M/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 388.57'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1253, 705) drawable=(1253, 705)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 13090.78s
-Loading error handling took 0.07s
-Loading script took 0.95s
-Loading save slot metadata took 0.09s
-Loading persistent took 0.00s
-Running init code took 0.09s
-Loading analysis data took 0.05s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.07s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\lalka\\AppData\\Roaming/RenPy/backups\\In the Shade of the Walnut Tree':
-Dump and make backups took 0.18s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.12s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 1.38s
-Cleaning stores took 0.00s
-Init translation took 0.08s
-Build styles took 0.01s
-Load screen analysis took 0.02s
-Analyze screens took 0.03s
-Save screen analysis took 0.04s
-Prepare screens took 0.19s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.03s
-Running _start took 0.00s
-Interface start took 0.10s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1366, 768)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'GeForce GT 720M/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 388.57'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1253, 705) drawable=(1253, 705)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 13133.25s
-Loading error handling took 0.08s
-Loading script took 0.90s
-Loading save slot metadata took 0.10s
-Loading persistent took 0.00s
-Running init code took 0.10s
-Loading analysis data took 0.05s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.08s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\lalka\\AppData\\Roaming/RenPy/backups\\In the Shade of the Walnut Tree':
-Dump and make backups took 0.20s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.17s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 2.19s
-Cleaning stores took 0.00s
-Init translation took 0.08s
-Build styles took 0.01s
-Load screen analysis took 0.01s
-Analyze screens took 0.03s
-Save screen analysis took 0.04s
-Prepare screens took 0.20s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.03s
-Running _start took 0.00s
-Interface start took 0.10s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1366, 768)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'GeForce GT 720M/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 388.57'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1253, 705) drawable=(1253, 705)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 13163.99s
-Loading error handling took 0.08s
-Loading script took 0.88s
-Loading save slot metadata took 0.09s
-Loading persistent took 0.00s
-Running init code took 0.09s
-Loading analysis data took 0.04s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.07s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\lalka\\AppData\\Roaming/RenPy/backups\\In the Shade of the Walnut Tree':
-Dump and make backups took 0.18s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.12s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 1.54s
-Cleaning stores took 0.00s
-Init translation took 0.30s
-Build styles took 0.01s
-Load screen analysis took 0.02s
-Analyze screens took 0.04s
-Save screen analysis took 0.09s
-Prepare screens took 0.37s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.03s
-Running _start took 0.00s
-Interface start took 0.10s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1366, 768)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'GeForce GT 720M/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 388.57'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1253, 705) drawable=(1253, 705)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 13178.14s
-Loading error handling took 0.08s
-Loading script took 0.71s
-Loading save slot metadata took 0.09s
-Loading persistent took 0.00s
-Running init code took 0.08s
-Loading analysis data took 0.04s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.07s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\lalka\\AppData\\Roaming/RenPy/backups\\In the Shade of the Walnut Tree':
-Dump and make backups took 0.17s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.11s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 1.40s
-Cleaning stores took 0.00s
-Init translation took 0.09s
-Build styles took 0.01s
-Load screen analysis took 0.01s
-Analyze screens took 0.03s
-Save screen analysis took 0.04s
-Prepare screens took 0.19s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.04s
-Running _start took 0.00s
-Interface start took 0.10s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1366, 768)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'GeForce GT 720M/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 388.57'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1253, 705) drawable=(1253, 705)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 13706.86s
-Loading error handling took 0.08s
-Loading script took 1.09s
-Loading save slot metadata took 0.13s
-Loading persistent took 0.00s
-Running init code took 0.12s
-Loading analysis data took 0.06s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.08s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\lalka\\AppData\\Roaming/RenPy/backups\\In the Shade of the Walnut Tree':
-Dump and make backups took 0.23s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.15s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 3.32s
-Cleaning stores took 0.00s
-Init translation took 0.17s
-Build styles took 0.01s
-Load screen analysis took 0.07s
-Analyze screens took 0.07s
-Save screen analysis took 0.06s
-Prepare screens took 0.26s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.05s
-Running _start took 0.00s
-Interface start took 0.17s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1366, 768)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'GeForce GT 720M/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 388.57'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1253, 705) drawable=(1253, 705)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 13762.68s
-Loading error handling took 0.08s
-Loading script took 1.08s
-Loading save slot metadata took 0.18s
-Loading persistent took 0.00s
-Running init code took 0.15s
-Loading analysis data took 0.05s
-Analyze and compile ATL took 0.01s
-Reloading save slot metadata took 0.12s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\lalka\\AppData\\Roaming/RenPy/backups\\In the Shade of the Walnut Tree':
-Dump and make backups took 0.25s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.15s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 1.81s
-Cleaning stores took 0.00s
-Init translation took 0.10s
-Build styles took 0.01s
-Load screen analysis took 0.01s
-Analyze screens took 0.04s
-Save screen analysis took 0.05s
-Prepare screens took 0.25s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.04s
-Running _start took 0.00s
-Interface start took 0.11s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1366, 768)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'GeForce GT 720M/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 388.57'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1253, 705) drawable=(1253, 705)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 13784.98s
-Loading error handling took 0.13s
-Loading script took 1.40s
-Loading save slot metadata took 0.12s
-Loading persistent took 0.00s
-Running init code took 0.09s
-Loading analysis data took 0.04s
-Analyze and compile ATL took 0.01s
-Reloading save slot metadata took 0.07s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\lalka\\AppData\\Roaming/RenPy/backups\\In the Shade of the Walnut Tree':
-Dump and make backups took 0.31s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.16s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 1.51s
-Cleaning stores took 0.00s
-Init translation took 0.10s
-Build styles took 0.01s
-Load screen analysis took 0.07s
-Analyze screens took 0.03s
-Save screen analysis took 0.05s
-Prepare screens took 0.22s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.04s
-Running _start took 0.00s
-Interface start took 0.11s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1366, 768)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'GeForce GT 720M/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 388.57'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1253, 705) drawable=(1253, 705)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 13868.46s
-Loading error handling took 0.11s
-Loading script took 1.48s
-Loading save slot metadata took 0.28s
-Loading persistent took 0.00s
-Running init code took 0.12s
-Loading analysis data took 0.06s
-Analyze and compile ATL took 0.02s
-Reloading save slot metadata took 0.14s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\lalka\\AppData\\Roaming/RenPy/backups\\In the Shade of the Walnut Tree':
-Dump and make backups took 0.32s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.18s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 1.58s
-Cleaning stores took 0.00s
-Init translation took 0.08s
-Build styles took 0.01s
-Load screen analysis took 0.01s
-Analyze screens took 0.04s
-Save screen analysis took 0.04s
-Prepare screens took 0.20s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.03s
-Running _start took 0.00s
-Interface start took 0.10s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1366, 768)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'GeForce GT 720M/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 388.57'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1253, 705) drawable=(1253, 705)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 13917.74s
-Loading error handling took 0.07s
-Loading script took 1.01s
-Loading save slot metadata took 0.09s
-Loading persistent took 0.00s
-Running init code took 0.11s
-Loading analysis data took 0.04s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.12s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\lalka\\AppData\\Roaming/RenPy/backups\\In the Shade of the Walnut Tree':
-Dump and make backups took 0.25s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.11s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 1.53s
-Cleaning stores took 0.00s
-Init translation took 0.09s
-Build styles took 0.01s
-Load screen analysis took 0.01s
-Analyze screens took 0.05s
-Save screen analysis took 0.04s
-Prepare screens took 0.20s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.03s
-Running _start took 0.00s
-Interface start took 0.09s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1366, 768)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'GeForce GT 720M/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 388.57'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1253, 705) drawable=(1253, 705)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 13935.69s
-Loading error handling took 0.11s
-Loading script took 1.10s
-Loading save slot metadata took 0.10s
-Loading persistent took 0.00s
-Running init code took 0.11s
-Loading analysis data took 0.04s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.07s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\lalka\\AppData\\Roaming/RenPy/backups\\In the Shade of the Walnut Tree':
-Dump and make backups took 0.17s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.11s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 1.44s
-Cleaning stores took 0.00s
-Init translation took 0.12s
-Build styles took 0.01s
-Load screen analysis took 0.01s
-Analyze screens took 0.04s
-Save screen analysis took 0.06s
-Prepare screens took 0.25s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.04s
-Running _start took 0.00s
-Interface start took 0.12s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1366, 768)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'GeForce GT 720M/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 388.57'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1253, 705) drawable=(1253, 705)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 13954.89s
-Loading error handling took 0.09s
-Loading script took 1.52s
-Loading save slot metadata took 0.11s
-Loading persistent took 0.00s
-Running init code took 0.09s
-Loading analysis data took 0.04s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.08s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\lalka\\AppData\\Roaming/RenPy/backups\\In the Shade of the Walnut Tree':
-Dump and make backups took 0.18s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.11s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 1.58s
-Cleaning stores took 0.00s
-Init translation took 0.08s
-Build styles took 0.01s
-Load screen analysis took 0.01s
-Analyze screens took 0.03s
-Save screen analysis took 0.04s
-Prepare screens took 0.24s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.04s
-Running _start took 0.00s
-Interface start took 0.12s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1366, 768)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'GeForce GT 720M/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 388.57'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1253, 705) drawable=(1253, 705)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 13977.75s
-Loading error handling took 0.08s
-Loading script took 1.04s
-Loading save slot metadata took 0.11s
-Loading persistent took 0.00s
-Running init code took 0.22s
-Loading analysis data took 0.08s
-Analyze and compile ATL took 0.01s
-Reloading save slot metadata took 0.19s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\lalka\\AppData\\Roaming/RenPy/backups\\In the Shade of the Walnut Tree':
-Dump and make backups took 0.26s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.18s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 1.79s
-Cleaning stores took 0.00s
-Init translation took 0.09s
-Build styles took 0.01s
-Load screen analysis took 0.01s
-Analyze screens took 0.03s
-Save screen analysis took 0.04s
-Prepare screens took 0.19s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.03s
-Running _start took 0.00s
-Interface start took 0.10s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1366, 768)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'GeForce GT 720M/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 388.57'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1253, 705) drawable=(1253, 705)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 13997.53s
-Loading error handling took 0.07s
-Loading script took 0.76s
-Loading save slot metadata took 0.09s
-Loading persistent took 0.00s
-Running init code took 0.08s
-Loading analysis data took 0.04s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.07s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\lalka\\AppData\\Roaming/RenPy/backups\\In the Shade of the Walnut Tree':
-Dump and make backups took 0.19s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.11s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 1.66s
-Cleaning stores took 0.00s
-Init translation took 0.09s
-Build styles took 0.01s
-Load screen analysis took 0.01s
-Analyze screens took 0.03s
-Save screen analysis took 0.04s
-Prepare screens took 0.21s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.04s
-Running _start took 0.00s
-Interface start took 0.09s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1366, 768)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'GeForce GT 720M/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 388.57'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1253, 705) drawable=(1253, 705)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 14734.85s
-Loading error handling took 0.07s
-Loading script took 0.41s
-Loading save slot metadata took 0.20s
-Loading persistent took 0.00s
-Running init code took 0.18s
-Loading analysis data took 0.06s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.16s
-Index archives took 0.00s
-Dump and make backups took 0.23s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.15s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 1.73s
-Cleaning stores took 0.00s
-Init translation took 0.09s
-Build styles took 0.01s
-Load screen analysis took 0.09s
 Analyze screens took 0.00s
-Save screen analysis took 0.00s
-Prepare screens took 0.23s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.00s
+Prepare screens took 0.00s
 Running _start took 0.00s
-Interface start took 0.14s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1366, 768)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'GeForce GT 720M/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 388.57'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1253, 705) drawable=(1253, 705)
-Maximum texture size: 4096x4096
