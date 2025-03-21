@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 26: expected statement.
-    def save_with_label(slot_name, label):
-                       ^
+File "game/script.rpy", line 1515: choice menuitem expects a non-empty block.
+    "Choice 2":
+               ^
 
 Ren'Py Version: Ren'Py 8.3.3.24111502
-Wed Mar 19 12:51:11 2025
+Fri Mar 21 11:20:18 2025
