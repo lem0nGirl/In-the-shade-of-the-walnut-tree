@@ -107,7 +107,7 @@ screen say(who, what):
                 style "namebox"
                 text who id "who"
 
-        text what id "what"
+        text what id "what" 
 
 
     ## Если есть боковое изображение ("голова"), показывает её поверх текста.

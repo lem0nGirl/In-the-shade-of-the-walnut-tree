@@ -1,15 +1,17 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 54, in script
-    reyTh "«Гринваген — лучшее место, если ты хочешь вырасти в Новой Англии и чувствовать себя человеком без комплексов», — так говорила моя мать, когда я только поступила в школу «Вэнити Гроув»"
-Exception: Style 'italic' does not exist.
+  File "game/script.rpy", line 126, in script
+    reyTh "Так, учебник по экономике Шеффрина для мистера Джейкоби я взяла, яблоки и бутерброды с ветчиной на месте. Где же я могла что-то забыть?"
+  File "game/script.rpy", line 17, in typewriter_sound
+    renpy.music.register_channel("typewriter", "sfx", loop=True)  # Создаем канал "typewriter"
+Exception: Can't register channel outside of init phase.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 54, in script
-    reyTh "«Гринваген — лучшее место, если ты хочешь вырасти в Новой Англии и чувствовать себя человеком без комплексов», — так говорила моя мать, когда я только поступила в школу «Вэнити Гроув»"
+  File "game/script.rpy", line 126, in script
+    reyTh "Так, учебник по экономике Шеффрина для мистера Джейкоби я взяла, яблоки и бутерброды с ветчиной на месте. Где же я могла что-то забыть?"
   File "C:\Users\lalka\Downloads\renpy-8.3.3-sdk\renpy\ast.py", line 2573, in execute
     Say.execute(self)
   File "C:\Users\lalka\Downloads\renpy-8.3.3-sdk\renpy\ast.py", line 615, in execute
@@ -20,21 +22,17 @@ Full traceback:
     self.do_display(who, what, cb_args=self.cb_args, dtt=dtt, **display_args)
   File "C:\Users\lalka\Downloads\renpy-8.3.3-sdk\renpy\character.py", line 1106, in do_display
     display_say(who,
-  File "C:\Users\lalka\Downloads\renpy-8.3.3-sdk\renpy\character.py", line 735, in display_say
-    what_text = show_function(who, what_string, **show_args)
-  File "C:\Users\lalka\Downloads\renpy-8.3.3-sdk\renpy\character.py", line 1084, in do_show
-    return self.show_function(
-  File "C:\Users\lalka\Downloads\renpy-8.3.3-sdk\renpy\character.py", line 346, in show_display_say
-    props = compute_widget_properties(who_args, what_args, window_args, properties, variant=variant, multiple=multiple)
-  File "C:\Users\lalka\Downloads\renpy-8.3.3-sdk\renpy\character.py", line 280, in compute_widget_properties
-    what_args = style_args(what_args, "what")
-  File "C:\Users\lalka\Downloads\renpy-8.3.3-sdk\renpy\character.py", line 267, in style_args
-    style = getattr(renpy.store.style, style)
-  File "style.pyx", line 216, in renpy.style.StyleManager.__getattr__
-  File "style.pyx", line 83, in renpy.style.get_style
-Exception: Style 'italic' does not exist.
+  File "C:\Users\lalka\Downloads\renpy-8.3.3-sdk\renpy\character.py", line 627, in display_say
+    callback("begin")
+  File "C:\Users\lalka\Downloads\renpy-8.3.3-sdk\renpy\character.py", line 91, in __call__
+    c(*args, **kwargs)
+  File "game/script.rpy", line 17, in typewriter_sound
+    renpy.music.register_channel("typewriter", "sfx", loop=True)  # Создаем канал "typewriter"
+  File "C:\Users\lalka\Downloads\renpy-8.3.3-sdk\renpy\audio\audio.py", line 931, in register_channel
+    raise Exception("Can't register channel outside of init phase.")
+Exception: Can't register channel outside of init phase.
 
 Windows-10-10.0.19045 AMD64
 Ren'Py 8.3.3.24111502
 In the Shade of the Walnut Tree 0.1
-Fri Mar 14 15:55:59 2025
+Sun Mar 23 11:46:03 2025

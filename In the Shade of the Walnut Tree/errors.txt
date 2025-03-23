@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 1515: choice menuitem expects a non-empty block.
-    "Choice 2":
-               ^
+File "game/script.rpy", line 18: expected an indented block
+        renpy.music.set_volume(0.5, channel="typewriter")  
+         ^
 
 Ren'Py Version: Ren'Py 8.3.3.24111502
-Fri Mar 21 11:20:18 2025
+Sun Mar 23 11:47:05 2025
