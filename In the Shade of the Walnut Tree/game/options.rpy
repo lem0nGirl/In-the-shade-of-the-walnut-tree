@@ -62,7 +62,9 @@ define config.has_voice = True
 ## проигрываться в главном меню. Этот файл продолжит проигрываться во время
 ## игры, если не будет остановлен, или не начнёт проигрываться другой аудиофайл.
 
-# define config.main_menu_music = "main-menu-theme.ogg"
+define config.main_menu_music = "audio/Music/perfect-beauty.ogg"
+define config.main_menu_music_fadein = 2.0  # Плавное появление за 2 секунды
+define config.fade_music = 1.0  # Плавное затухание при смене треков
 
 
 ## Переходы ####################################################################

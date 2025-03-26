@@ -4,6 +4,20 @@
 
 init offset = -1
 
+image stars_1_anim:  # Анимация для первого слоя звёзд
+    "gui/stars_1.png"  # Путь к вашему файлу
+    alpha 1.0
+    ease 1.0 alpha 0.3  # Плавное исчезновение
+    ease 1.0 alpha 1.0  # Плавное появление
+    repeat  # Зацикливаем
+
+image stars_2_anim:  # Анимация для второго слоя
+    "gui/stars_2.png"
+    alpha 0.7
+    ease 1.5 alpha 0.1  # Более медленное мерцание
+    ease 1.5 alpha 0.7
+    repeat
+
 
 ################################################################################
 ## Стили
@@ -297,7 +311,8 @@ screen navigation():
 
         if main_menu:
 
-            textbutton _("Начать") action Start()
+                textbutton _("Начать") action [Stop("music", fadeout=1.0), Start()]
+
 
         else:
 
@@ -356,6 +371,9 @@ screen main_menu():
 
     add gui.main_menu_background
 
+    add "stars_1_anim"  # Первый слой
+    add "stars_2_anim"  # Второй слой
+    
     ## Эта пустая рамка затеняет главное меню.
     frame:
         style "main_menu_frame"
@@ -571,7 +589,16 @@ screen about():
             if gui.about:
                 text "[gui.about!t]\n"
 
-            text _("Сделано с помощью {a=https://www.renpy.org/}Ren'Py{/a} [renpy.version_only].\n\n[renpy.license!t]")
+            text _("""
+            Сделано с помощью {a=https://www.renpy.org/}Ren'Py{/a} [renpy.version_only].\n\n[renpy.license!t]
+
+            Music:
+
+            Music by Zakhar Valaha from Pixabay
+
+            Music by Vitaliy Levkin from Pixabay
+
+            """)
 
 
 style about_label is gui_label

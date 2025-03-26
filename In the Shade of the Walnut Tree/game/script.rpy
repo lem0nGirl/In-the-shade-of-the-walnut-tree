@@ -61,6 +61,11 @@ init :
 
 label start:
 
+    $ renpy.music.stop(channel="music", fadeout=1.0)
+
+    play music "audio/Music/inside-you.ogg" fadein 1.5 fadeout 1.5 volume 0.7 loop  # Плавное начало, громкость 70%, зацикливание
+
+
     scene bg city_mane at move_left
     with dissolve
 
@@ -724,6 +729,9 @@ label Chapter_4:
 
 
 label Chapter_5:
+
+    play music "audio/Music/perfect-beauty.ogg" fadein 2.0 volume 0.7 loop  # Плавное начало, громкость 70%, зацикливание
+
 
     scene Ореховое-дерево-ночь
     with fade

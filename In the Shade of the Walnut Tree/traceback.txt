@@ -1,38 +1,28 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 126, in script
-    reyTh "Так, учебник по экономике Шеффрина для мистера Джейкоби я взяла, яблоки и бутерброды с ветчиной на месте. Где же я могла что-то забыть?"
-  File "game/script.rpy", line 17, in typewriter_sound
-    renpy.music.register_channel("typewriter", "sfx", loop=True)  # Создаем канал "typewriter"
-Exception: Can't register channel outside of init phase.
+  File "game/options.rpy", line 67, in script
+    define config.main_menu_music_loop = True  # Зацикливание
+  File "renpy/common/000namespaces.rpy", line 34, in set
+    setattr(self.nso, name, value)
+Exception: config.main_menu_music_loop is not a known configuration variable.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 126, in script
-    reyTh "Так, учебник по экономике Шеффрина для мистера Джейкоби я взяла, яблоки и бутерброды с ветчиной на месте. Где же я могла что-то забыть?"
-  File "C:\Users\lalka\Downloads\renpy-8.3.3-sdk\renpy\ast.py", line 2573, in execute
-    Say.execute(self)
-  File "C:\Users\lalka\Downloads\renpy-8.3.3-sdk\renpy\ast.py", line 615, in execute
-    renpy.exports.say(who, what, *args, **kwargs)
-  File "C:\Users\lalka\Downloads\renpy-8.3.3-sdk\renpy\exports\sayexports.py", line 132, in say
-    who(what, *args, **kwargs)
-  File "C:\Users\lalka\Downloads\renpy-8.3.3-sdk\renpy\character.py", line 1455, in __call__
-    self.do_display(who, what, cb_args=self.cb_args, dtt=dtt, **display_args)
-  File "C:\Users\lalka\Downloads\renpy-8.3.3-sdk\renpy\character.py", line 1106, in do_display
-    display_say(who,
-  File "C:\Users\lalka\Downloads\renpy-8.3.3-sdk\renpy\character.py", line 627, in display_say
-    callback("begin")
-  File "C:\Users\lalka\Downloads\renpy-8.3.3-sdk\renpy\character.py", line 91, in __call__
-    c(*args, **kwargs)
-  File "game/script.rpy", line 17, in typewriter_sound
-    renpy.music.register_channel("typewriter", "sfx", loop=True)  # Создаем канал "typewriter"
-  File "C:\Users\lalka\Downloads\renpy-8.3.3-sdk\renpy\audio\audio.py", line 931, in register_channel
-    raise Exception("Can't register channel outside of init phase.")
-Exception: Can't register channel outside of init phase.
+  File "game/options.rpy", line 67, in script
+    define config.main_menu_music_loop = True  # Зацикливание
+  File "C:\Users\lalka\Downloads\renpy-8.3.3-sdk\renpy\ast.py", line 2235, in execute
+    self.set()
+  File "C:\Users\lalka\Downloads\renpy-8.3.3-sdk\renpy\ast.py", line 2253, in set
+    ns.set(self.varname, value)
+  File "renpy/common/000namespaces.rpy", line 34, in set
+    setattr(self.nso, name, value)
+  File "C:\Users\lalka\Downloads\renpy-8.3.3-sdk\renpy\defaultstore.py", line 101, in __setattr__
+    raise Exception('config.%s is not a known configuration variable.' % (name))
+Exception: config.main_menu_music_loop is not a known configuration variable.
 
 Windows-10-10.0.19045 AMD64
 Ren'Py 8.3.3.24111502
 In the Shade of the Walnut Tree 0.1
-Sun Mar 23 11:46:03 2025
+Wed Mar 26 11:35:14 2025

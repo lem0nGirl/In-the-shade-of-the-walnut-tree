@@ -2,9 +2,12 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 18: expected an indented block
-        renpy.music.set_volume(0.5, channel="typewriter")  
-         ^
+File "game/screens.rpy", line 315: Line is indented, but the preceding textbutton statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
+    action [
+    ^
+                Stop("music", fadeout=2.0),
+                Start()
+            ]
 
 Ren'Py Version: Ren'Py 8.3.3.24111502
-Sun Mar 23 11:47:05 2025
+Wed Mar 26 11:48:09 2025
