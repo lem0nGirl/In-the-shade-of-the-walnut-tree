@@ -4,19 +4,68 @@
 
 init offset = -1
 
-image stars_1_anim:  # Анимация для первого слоя звёзд
-    "gui/stars_1.png"  # Путь к вашему файлу
-    alpha 1.0
-    ease 1.0 alpha 0.3  # Плавное исчезновение
-    ease 1.0 alpha 1.0  # Плавное появление
-    repeat  # Зацикливаем
 
-image stars_2_anim:  # Анимация для второго слоя
-    "gui/stars_2.png"
-    alpha 0.7
-    ease 1.5 alpha 0.1  # Более медленное мерцание
-    ease 1.5 alpha 0.7
+image stars_small_anim:
+    "gui/Stars_Small.png"
+    blend "add"
+    alpha 0.4
+    ease 3.0 alpha 0.2
+    ease 2.0 alpha 0.4
     repeat
+
+image stars_medium_anim:
+    "gui/Stars_Medium.png"
+    anchor (0.5, 0.5)  # Жёсткая центровка
+    pos (0.5, 0.5)
+    blend "add"        # Режим свечения
+    alpha 0.8         # Стартовая яркость выше
+    ease 1.5 alpha 1.0  # Яркая вспышка (быстрее)
+    ease 1.0 alpha 0.6  # Резкий спад
+    repeat             # Цикл
+
+image stars_big_combo:
+    contains:
+        "gui/Stars_Big.png"
+        anchor (0.5, 0.5)  # Центр изображения
+        pos (0.5, 0.5)     # Центр экрана
+        blend "add"
+        alpha 0.8
+        ease 4.0 alpha 1.0
+        ease 3.0 alpha 0.7
+        repeat
+    contains:
+        "gui/Stars_Big_n.png"
+        anchor (0.5, 0.5)
+        pos (0.5, 0.5)
+        blend "add"
+        alpha 0.0
+        ease 4.0 alpha 0.5
+        ease 3.0 alpha 0.0
+        repeat
+
+image city_lights_anim:
+    "gui/City_Lights.png"
+    blend "add"
+    alpha 0.8
+    zoom 1.0
+    ease 6.0 alpha 0.9 zoom 1.003
+    ease 5.0 alpha 0.7 zoom 1.0
+    repeat
+
+
+image animated_sky:
+    # Основной фон (статичный)
+    "gui/stars_n.png"
+    
+    # Слои звёзд (от дальних к ближним)
+    contains:
+        "stars_small_anim"
+    contains:
+        "stars_medium_anim"
+    contains:
+        "stars_big_combo"
+    contains:
+        "city_lights_anim"
 
 
 ################################################################################
@@ -371,8 +420,8 @@ screen main_menu():
 
     add gui.main_menu_background
 
-    add "stars_1_anim"  # Первый слой
-    add "stars_2_anim"  # Второй слой
+    add "animated_sky"
+
     
     ## Эта пустая рамка затеняет главное меню.
     frame:

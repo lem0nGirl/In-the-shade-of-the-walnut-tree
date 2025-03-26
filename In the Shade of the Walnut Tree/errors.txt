@@ -2,12 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/screens.rpy", line 315: Line is indented, but the preceding textbutton statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
-    action [
+File "game/screens.rpy", line 21: Line is indented, but the preceding ATL statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
+    parallel:
     ^
-                Stop("music", fadeout=2.0),
-                Start()
-            ]
 
 Ren'Py Version: Ren'Py 8.3.3.24111502
-Wed Mar 26 11:48:09 2025
+Wed Mar 26 15:18:40 2025
